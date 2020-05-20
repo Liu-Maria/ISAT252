@@ -46,5 +46,5 @@ print(num_list[0])      #print the first item again which is now the minimal val
 #3.8
 game_board = [ [0,0,0], [0,0,0], [0,0,0]]   
 print(game_board)
-game_board[1] = [0, 1, 0]       #swiching the second item with [0, 1, 0]
+game_board[1] = [0, 1, 0]       #switching the second item with [0, 1, 0]
 print(game_board)
