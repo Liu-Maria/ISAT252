@@ -38,13 +38,13 @@ print(num_list[0])      #prints the first item, which is also the minimal value
 print(num_list[-1])     #prints the last item, which is also the maximal value
 '''
 alternatively:
-num_list.reverse        #print the list in descending order
-print(num_list[0])      #print the first item again which is now the minimal value
+num_list.reverse        #Prin
+print(num_list[0])
 '''
 
 
 #3.8
-game_board = [ [0,0,0], [0,0,0], [0,0,0]]   
+game_board = [ [0,0,0], [0,0,0], [0,0,0]]
 print(game_board)
-game_board[1] = [0, 1, 0]       #stiching the second item with [0, 1, 0]
+game_board[1] = [0, 1, 0]
 print(game_board)
