@@ -28,8 +28,9 @@ print(set(my_list))     #turns it into a set and eliminted repeats
 print(len(set(my_list)))    #prints the length of the set, which is also the number of unique items in my_list
 
 #3.6
-print(len("This is my third python lab."))  #prints the number of characters inclusing spaces
-print(len(["This", "is", "my", "third", "python", "lab."]))     #prints the number of items, which is the number of words
+# print(len("This is my third python lab."))  #prints the number of characters inclusing spaces
+# print(len(["This", "is", "my", "third", "python", "lab."]))     #prints the number of items, which is the number of words
+print(len("This is my third python lab.".split()))
 
 #3.7
 num_list = [12, 32, 43, 35] 
@@ -48,3 +49,8 @@ game_board = [ [0,0,0], [0,0,0], [0,0,0]]
 print(game_board)
 game_board[1] = [0, 1, 0]       #switching the second item with [0, 1, 0]
 print(game_board)
+
+'''
+Can alternatively use game_board[1][1] = (1)
+print(game_board)
+'''
