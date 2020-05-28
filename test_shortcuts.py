@@ -9,3 +9,13 @@ The testing of python keyboard/coding shortcuts
 '''
 use command / to comment out a block
 '''
+
+i = 3
+factorial = 3
+while i <= 8:
+    if factorial == i:
+        i = i + 1
+        break
+    factorial = factorial*i
+    i = i + 1
+print(factorial)
