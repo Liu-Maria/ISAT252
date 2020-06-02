@@ -12,7 +12,7 @@ while i <= 6:
 
 #3.2
 i = 5
-factorial = i-4
+factorial = 1
 while i > 1:
     factorial = factorial*i
     i = i - 1
